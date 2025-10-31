@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+int x=10;
+printf("x=%d",x);
+char ch='a';
+printf("ch=%c",ch):
+float pi=3.14;
+printf("pi=%f",pi);
+double p=012345.676;
+printf("p=%lf",p);
+long int q=655345;
+printf("q=%ld",q);
+return 0;
