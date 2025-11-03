@@ -1,0 +1,31 @@
+#include<stdio.h>
+int main()
+{
+int units;
+float amount,charge,total amount;
+printf("enter total units");
+scanf("%d",&total units);
+if(units<=100)
+{
+amount=units*1.50;
+charge=20;
+}
+else if(units<=200)
+{
+amount=units*2.50;
+charge=50;
+}
+else if(units<=400)
+{
+amount=units*5.00;
+charge=70;
+}
+else
+{
+amount=units*7.00;
+charge=80;
+}
+total amount=amount+charge;
+printf("electricity bill=%2f",total amount);
+return 0;
+}
