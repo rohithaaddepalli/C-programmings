@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+int i,tn,ts;
+printf("enter table number");
+scanf("%d",&tn);
+printf("enter eable size");
+scanf("%d",&ts);
+for(i=0;i<=ts;i++)
+{
+printtf("%d*%d=%d\n",i,tn,i*tn);
+}
+return 0;
+}
